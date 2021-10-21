@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+/* global style */
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* My body */
+body{
+  background-color: #e5e5e5;
+}
+/* My content style */
+.content{
+  background-color:#ffffff;
+}
+/* Header placeholder */
+.header-toolbar-container{
+  width: 375px;
+  height: 48px;
+  display: flex;
+}
+/* Logo container */
+.logo-container{
+  width: 100px;
+  height: 100%;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+/* My logo */
+.logo-item{
+  height: 25px;
+  color: #6070FF;
+  padding-top: 2px;
+}
+/* Menu container */
+.menu-container{
+  width: 100px;
+  height: 100%;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+/* My menu */
+.menu-item{
+  width: 40px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding-top: 6px;
+}
+/* Menu layout */
+.line-1{
+  width: 25px;
+  height: 3.5px;
+  background-color: #6070FF;
+}
+.line-2{
+  width: 25px;
+  height: 3.5px;
+  background-color: #6070FF;
+}
+.line-3{
+  width: 25px;
+  height: 3.5px;
+  background-color: #6070FF;
+}

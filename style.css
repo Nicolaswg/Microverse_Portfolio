@@ -34,6 +34,12 @@ body{
   height: 25px;
   color: #6070FF;
   padding-top: 2px;
+  cursor: pointer;
+}
+.logo{
+  font-size: 18px;
+  font-style: normal;
+  line-height: 25px;
 }
 /* Menu container */
 .menu-container{
@@ -53,20 +59,112 @@ body{
   align-items: center;
   gap: 2px;
   padding-top: 6px;
+  cursor: pointer;
 }
-/* Menu layout */
+/* Toolbar menu layout */
 .line-1{
   width: 25px;
   height: 3.5px;
-  background-color: #6070FF;
+  background-color: #6070ff;
 }
 .line-2{
   width: 25px;
   height: 3.5px;
-  background-color: #6070FF;
+  background-color: #6070ff;
 }
 .line-3{
   width: 25px;
   height: 3.5px;
-  background-color: #6070FF;
+  background-color: #6070ff;
+}
+/*Headline */
+.headline-container{
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  border-bottom-left-radius:100px;
+  background: url(src/svg/header-shapes\ mobile@2x.svg);
+  background-size: cover;
+  background-color: #fff;
+}
+/* Headline title placeholder */
+.headline-title{
+  width: 327px;
+  height: 180px;
+  flex:none;
+  order: 0;
+  margin: 5px;
+}
+/* My headline title */
+.title{
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  padding: 8px;
+}
+/* Descriptcion placeholder */
+.description-container{
+  margin: 5px 15px;
+  line-height: 24px;
+  text-align: start;
+}
+/* My description */
+.description-item{
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+/* Contact link placeholder */
+.contact-links-container{
+  width: 130px;
+  height: 24px;
+  margin: 20px 24px 2px 24px;
+}
+/* My link */
+.link-item{
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+}
+.link{
+  color: #7f8cff;
+  text-decoration: none;
+}
+/* Network placeholder */
+.network-container{
+  width: 175px;
+  height: 40px;
+  margin: 5px 24px;
+}
+/* My networoks icons */
+.network-items{
+  flex-grow: 1;
+  padding: 1px;
+  display: flex;
+  column-gap: 19px;
+  align-items: center;
+  justify-content: center;
+}
+.icon{
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  cursor: pointer;
+}
+.twitter{
+  background-image: url(src/Icons/twitter_icon.svg);
+}
+.linkedlin{
+  background-image: url(src/Icons/linkedin_icon.svg);
+}
+.medium{
+  background-image: url(src/Icons/medium_icon.svg);
+}
+.github{
+  background-image: url(src/Icons/github_icon.svg);
+}
+.peace{
+  background-image: url(src/Icons/peace_icon.svg);
 }

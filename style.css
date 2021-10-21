@@ -15,7 +15,7 @@ body {
 
 /* My content style */
 .content {
-  background-color:#fff;
+  background-color: #fff;
 }
 
 /* Header placeholder */
@@ -97,7 +97,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 114px 24px;
-  border-bottom-left-radius:100px;
+  border-bottom-left-radius: 100px;
   background: url(src/svg/header-shapes\ mobile@2x.svg);
   background-size: cover;
   background-color: #fff;
@@ -107,7 +107,7 @@ body {
 .headline-title {
   width: 327px;
   height: 180px;
-  flex:none;
+  flex: none;
   order: 0;
   margin: 5px;
 }

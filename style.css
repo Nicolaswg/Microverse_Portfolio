@@ -1,27 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 /* global style */
-*{
+* {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 /* My body */
-body{
+body {
   background-color: #e5e5e5;
 }
+
 /* My content style */
-.content{
+.content {
   background-color:#ffffff;
 }
+
 /* Header placeholder */
-.header-toolbar-container{
+.header-toolbar-container {
   width: 375px;
   height: 48px;
   display: flex;
 }
+
 /* Logo container */
-.logo-container{
+.logo-container {
   width: 100px;
   height: 100%;
   padding: 10px 12px;
@@ -29,20 +34,22 @@ body{
   justify-content: flex-start;
   flex-grow: 1;
 }
+
 /* My logo */
-.logo-item{
+.logo-item {
   height: 25px;
   color: #6070FF;
   padding-top: 2px;
   cursor: pointer;
 }
-.logo{
+.logo {
   font-size: 18px;
   font-style: normal;
   line-height: 25px;
 }
+
 /* Menu container */
-.menu-container{
+.menu-container {
   width: 100px;
   height: 100%;
   padding: 10px 12px;
@@ -50,8 +57,9 @@ body{
   justify-content: flex-end;
   flex-grow: 1;
 }
+
 /* My menu */
-.menu-item{
+.menu-item {
   width: 40px;
   height: 100%;
   display: flex;
@@ -61,24 +69,28 @@ body{
   padding-top: 6px;
   cursor: pointer;
 }
+
 /* Toolbar menu layout */
-.line-1{
+.line-1 {
   width: 25px;
   height: 3.5px;
   background-color: #6070ff;
 }
-.line-2{
+
+.line-2 {
   width: 25px;
   height: 3.5px;
   background-color: #6070ff;
 }
-.line-3{
+
+.line-3 {
   width: 25px;
   height: 3.5px;
   background-color: #6070ff;
 }
+
 /*Headline */
-.headline-container{
+.headline-container {
   width: 375px;
   display: flex;
   flex-direction: column;
@@ -89,57 +101,66 @@ body{
   background-size: cover;
   background-color: #fff;
 }
+
 /* Headline title placeholder */
-.headline-title{
+.headline-title {
   width: 327px;
   height: 180px;
   flex:none;
   order: 0;
   margin: 5px;
 }
+
 /* My headline title */
-.title{
+.title {
   font-style: normal;
   font-size: 40px;
   line-height: 52px;
   padding: 8px;
 }
+
 /* Descriptcion placeholder */
-.description-container{
+.description-container {
   margin: 5px 15px;
   line-height: 24px;
   text-align: start;
 }
+
 /* My description */
-.description-item{
+.description-item {
   font-size: 16px;
   font-weight: 400;
   opacity: 0.6;
 }
+
 /* Contact link placeholder */
-.contact-links-container{
+.contact-links-container {
   width: 130px;
   height: 24px;
   margin: 20px 24px 2px 24px;
 }
+
 /* My link */
-.link-item{
+.link-item {
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
 }
-.link{
+
+.link {
   color: #7f8cff;
   text-decoration: none;
 }
+
 /* Network placeholder */
-.network-container{
+.network-container {
   width: 175px;
   height: 40px;
   margin: 5px 24px;
 }
+
 /* My networoks icons */
-.network-items{
+.network-items {
   flex-grow: 1;
   padding: 1px;
   display: flex;
@@ -147,24 +168,30 @@ body{
   align-items: center;
   justify-content: center;
 }
-.icon{
+
+.icon {
   width: 20px;
   height: 20px;
   background-size: cover;
   cursor: pointer;
 }
-.twitter{
+
+.twitter {
   background-image: url(src/Icons/twitter_icon.svg);
 }
-.linkedlin{
+
+.linkedlin {
   background-image: url(src/Icons/linkedin_icon.svg);
 }
-.medium{
+
+.medium {
   background-image: url(src/Icons/medium_icon.svg);
 }
-.github{
+
+.github {
   background-image: url(src/Icons/github_icon.svg);
 }
-.peace{
+
+.peace {
   background-image: url(src/Icons/peace_icon.svg);
 }

@@ -38,15 +38,23 @@ body {
 /* My logo */
 .logo-item {
   height: 25px;
-  color: #6070ff;
   padding-top: 2px;
   cursor: pointer;
 }
 
 .logo {
+  color: #6070ff;
   font-size: 18px;
   font-style: normal;
   line-height: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 200ms ease-out;
+  display: inline-block;
+}
+
+.logo:hover {
+  transform: scale(1.1);
 }
 
 /* Menu container */
@@ -66,7 +74,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
+  gap: 2.5px;
   padding-top: 6px;
   cursor: pointer;
 }
@@ -76,17 +84,20 @@ body {
   width: 25px;
   height: 3.5px;
   background-color: #6070ff;
+  list-style: none;
 }
 
 .line-2 {
   width: 25px;
   height: 3.5px;
+  list-style: none;
   background-color: #6070ff;
 }
 
 .line-3 {
   width: 25px;
   height: 3.5px;
+  list-style: none;
   background-color: #6070ff;
 }
 
@@ -171,28 +182,64 @@ body {
 }
 
 .icon {
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
   background-size: cover;
   cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
+
+.picture {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-size: cover;
 }
 
 .twitter {
   background-image: url(src/Icons/twitter_icon.svg);
+  transition: transform 200ms ease-in-out;
+}
+
+.twitter:hover {
+  transform: scale(1.2);
 }
 
 .linkedlin {
   background-image: url(src/Icons/linkedin_icon.svg);
+  transition: transform 200ms ease-in-out;
+}
+
+.linkedlin:hover {
+  transform: scale(1.2);
 }
 
 .medium {
   background-image: url(src/Icons/medium_icon.svg);
+  transition: transform 200ms ease-in-out;
+}
+
+.medium:hover {
+  transform: scale(1.2);
 }
 
 .github {
   background-image: url(src/Icons/github_icon.svg);
+  transition: transform 200ms ease-in-out;
+}
+
+.github:hover {
+  transform: scale(1.2);
 }
 
 .peace {
   background-image: url(src/Icons/peace_icon.svg);
+  transition: transform 200ms ease-in-out;
+}
+
+.peace:hover {
+  transform: scale(1.2);
 }

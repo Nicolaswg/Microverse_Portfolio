@@ -421,5 +421,88 @@ body {
   border-radius: 8px;
   font-size: 17px;
   background-color: transparent;
-  color:  #396df2
+  color:  #396df2;
+  cursor: pointer;
+}
+
+.project-buttom-b {
+  width: 162px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-size: 17px;
+  background-color: transparent;
+  color:  #396df2;
+  cursor: pointer;
+}
+
+/* about myself placeholder */
+.about-project {
+  width: 100%;
+  background-color:  #fff;
+  border-top-right-radius: 100px;
+}
+
+/* my about myself title */
+.about-title-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 114px 24px 0;
+  align-items: flex-start;
+}
+
+.about-title {
+  font-size: 40px;
+  color:  #172B4D;
+}
+
+/* my about myself description */
+.about-description-container {
+  width: 327px;
+  margin: 10px 15px 0;
+}
+
+.description-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+/* about knowledge placeholder */
+.about-knowledge-container {
+  margin: 10px 16px;
+  /* background-color: #6070ff; */
+}
+
+/* my knowledge item */
+.knowledge-items{
+  display: flex;
+  width: 100%;
+  gap: 150px;
+  align-items: center;
+  padding: 5px 20px 20px 10px;
+  justify-content: start;
+}
+
+.vector-a {
+  width: 20px;
+  height: 20px;
+  border: 5px solid #000;
+  clip-path: polygon(100% 49%, 52% 100%, 0 47%);
+}
+
+.vector-b {
+  width: 20px;
+  height: 20px;
+  border: 7px solid #000;
+  clip-path: polygon(100% 51%, 43% 0, 44% 100%);
+}
+
+.context {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000;
 }

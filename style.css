@@ -20,7 +20,7 @@ body {
 
 /* Header placeholder */
 .header-toolbar-container {
-  width: 375px;
+  width: 100vw;
   height: 48px;
   display: flex;
   position: fixed;

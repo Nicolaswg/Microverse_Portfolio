@@ -26,6 +26,7 @@ body {
   position: fixed;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+  z-index: 100;
 }
 
 /* Logo container */
@@ -489,6 +490,7 @@ body {
   padding: 10px 0 20px 0;
   margin-bottom: 5px;
   border-bottom: 1px solid #dfe1e6;
+  position: relative;
 }
 
 .skill-container#active {
@@ -633,7 +635,6 @@ body {
   padding: 15px;
   font-weight: 400;
   min-width: 100%;
-  border: none;
   border-radius: 10px;
   border: 1px solid #cfd8dc;
   min-height: 150px;

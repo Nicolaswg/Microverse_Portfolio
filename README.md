@@ -42,6 +42,8 @@
 
 
 ## 🤝 Contributing
+
+#### Contributors:
 👤 **Alexis Uwimana**
 
 Contributions, issues, and feature requests are welcome!

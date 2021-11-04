@@ -29,6 +29,9 @@
 4. **About Myself Section**
 ![Screenshot](./src/project_about_section.PNG)
 
+5. **Contact Section**
+![Screenshot](./src/project_contact_section.PNG)
+
 ## Authors
 
 👤 **Nicolas Gonzalez**
@@ -39,6 +42,7 @@
 
 
 ## 🤝 Contributing
+👤 **Alexis Uwimana**
 
 Contributions, issues, and feature requests are welcome!
 

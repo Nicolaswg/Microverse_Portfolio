@@ -320,34 +320,35 @@
                 </p>
               </div>
               <div class="form-container">
-                <form class="contact-form">
-<<<<<<< HEAD
+                <form action="https://formspree.io/f/xnqlkbzz" method="POST" class="contact-form">
                   <input
                     type="text"
                     placeholder="Name"
                     class="input-client-info"
+                    name="full-name"
+                    minlength="2"
+                    maxlength="30"
+                    required
                   />
                   <input
                     type="email"
                     name="email"
                     placeholder="example@gmail.com"
                     class="input-client-info"
+                    required
                   />
                   <textarea
                     name="message"
                     id="message"
                     placeholder="right your message here"
                     class="client-message"
+                    minlength="10"
+                    maxlength="500"
+                    required
                   >
-=======
-                  <input type="text" placeholder="Name" class="input-client-info" minlength="10" maxlength="30" required>
-                  <input type="email" name="email" placeholder="example@gmail.com" class="input-client-info" required>
-                  <textarea name="message" id="message" placeholder="right your message here" class="client-message" minlength="10" maxlength="500" required>
->>>>>>> 8e928f3f1fac51db756f3d623fdf0ded38ce04f0
                   </textarea>
                   <div class="button-container">
-                    <button id="button" class="contact-button">
-                      <label for="button">Get It Touch</label>
+                    <button name="submit" id="button" class="contact-button">Get It Touch
                     </button>
                   </div>
                 </form>

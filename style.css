@@ -258,7 +258,6 @@ body {
   grid-template-areas: 'header header header' 'description description description' 'footer footer footer';
 }
 
-
 /* work grid items */
 .item {
   width: 100%;
@@ -451,7 +450,6 @@ body {
   background-color: #fff;
   border-top-right-radius: 100px;
   padding: 10px 10px 100px 10px;
-
 }
 
 /* my about myself title */

@@ -37,7 +37,7 @@
         <!-- Project Headline -->
         <div class="content headline-container">
           <div class="headline-title">
-            <h1 class="title">I'm Nicolas Glad to see you!</h1>
+            <h1 class="title">I'm Nicolas Gonzalez Glad to see you!</h1>
           </div>
           <div class="description-container">
             <p class="description-item">
@@ -88,7 +88,7 @@
               </ul>
             </div>
             <div class="project-article-container">
-              <p class="description-item">
+              <p class="description-item description-item-b">
                 A daily selection of privately perosonalized reads; no accounts
                 or sign-ups required.
               </p>
@@ -108,7 +108,7 @@
          </div>
         </div>
         <!-- SECOND CARD -->
-        <div class="content work-projects">
+        <div class="content  work-projects work-projects-b">
           <div class="item project-header">
             <div class="project-img-container-b">
               <img
@@ -131,7 +131,7 @@
               </ul>
             </div>
             <div class="project-article-container">
-              <p class="description-item">
+              <p class="description-item description-item-b">
                 A daily selection of privately perosonalized reads; no accounts
                 or sign-ups required.
               </p>
@@ -173,7 +173,7 @@
               </ul>
             </div>
             <div class="project-article-container">
-              <p class="description-item">
+              <p class="description-item description-item-b">
                 A daily selection of privately perosonalized reads; no accounts
                 or sign-ups required.
               </p>
@@ -192,7 +192,7 @@
          </div>
         </div>
         <!-- FOURTH CARD -->
-        <div class="content work-projects">
+        <div class="content work-projects work-projects-b">
           <div class="item project-header">
             <div class="project-img-container-c">
               <img
@@ -215,7 +215,7 @@
               </ul>
             </div>
             <div class="project-article-container">
-              <p class="description-item">
+              <p class="description-item description-item-b">
                 A daily selection of privately perosonalized reads; no accounts
                 or sign-ups required.
               </p>
@@ -237,14 +237,13 @@
       <!-- About Myself Section -->
       <section id="about-myself">
         <div class="content about-project">
+          <div class="about-items-a">
           <div class="about-title-container">
             <h2 class="about-title">About myself</h2>
           </div>
           <div class="about-description-container">
-            <p class="description-item">
-              I'm a software developer! I can make creative UI designs, feature
-              or website. Look through my portafolio and don't hestiate to
-              contact me.
+            <p class="description-item description-item-b">
+              I'm a software developer! I can help you build a product, feature or website look througth some of my work experience! if you like what you see and have a project you need coded, don't hestiate to contact me.
             </p>
           </div>
           <div class="contact-links-container">
@@ -264,6 +263,8 @@
           <div class="project-buttom-container">
             <a href="#" class="project-buttom-b">Get my resume</a>
           </div>
+        </div>
+        <div class="about-items-b">
           <div class="about-knowledge-container">
             <div class="skill-container" id="active">
               <div class="skill-title">
@@ -312,54 +313,55 @@
               <div class="vector-icon"></div>
             </div>
           </div>
-          <section id="contact-section">
-            <div class="content contact-container">
-              <div class="contact-title-container">
-                <h2 class="contact-title">Contact me</h2>
+        </div>
+          </div>
+      </section>
+      <section id="contact-section">
+        <div class="content contact-container">
+          <div class="contact-title-container">
+            <h2 class="contact-title">Contact me</h2>
+          </div>
+          <div class="contact-description-container">
+            <p class="contact-description">
+              If you have an application you are interested in developing, a
+              feature that you need built or a project that need coding. I'd
+              love to help with it
+            </p>
+          </div>
+          <div class="form-container">
+            <form action="https://formspree.io/f/xnqlkbzz" method="POST" class="contact-form">
+              <input
+                type="text"
+                placeholder="Name"
+                class="input-client-info"
+                name="full-name"
+                minlength="2"
+                maxlength="30"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="example@gmail.com"
+                class="input-client-info"
+                required
+              />
+              <textarea
+                name="message"
+                id="message"
+                placeholder="right your message here"
+                class="client-message"
+                minlength="10"
+                maxlength="500"
+                required
+              >
+              </textarea>
+              <div class="button-container">
+                <button name="submit" id="button" class="contact-button">Get It Touch
+                </button>
               </div>
-              <div class="contact-description-container">
-                <p class="contact-description">
-                  If you have an application you are interedte in developing, a
-                  feature that you need built or a project that need coding. I'd
-                  love to help with it
-                </p>
-              </div>
-              <div class="form-container">
-                <form action="https://formspree.io/f/xnqlkbzz" method="POST" class="contact-form">
-                  <input
-                    type="text"
-                    placeholder="Name"
-                    class="input-client-info"
-                    name="full-name"
-                    minlength="2"
-                    maxlength="30"
-                    required
-                  />
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="example@gmail.com"
-                    class="input-client-info"
-                    required
-                  />
-                  <textarea
-                    name="message"
-                    id="message"
-                    placeholder="right your message here"
-                    class="client-message"
-                    minlength="10"
-                    maxlength="500"
-                    required
-                  >
-                  </textarea>
-                  <div class="button-container">
-                    <button name="submit" id="button" class="contact-button">Get It Touch
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </section>
+            </form>
+          </div>
         </div>
       </section>
     </main>

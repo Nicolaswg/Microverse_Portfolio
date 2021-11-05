@@ -107,7 +107,6 @@ body {
 
 /* Headline */
 .headline-container {
-  width: 375px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

@@ -335,7 +335,7 @@ body {
 .description-title {
   width: 100%;
   padding-left: 12px;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 /* my grid subtitle items  */
@@ -381,6 +381,7 @@ body {
 /* my grid footer tag item */
 .project-tag-container {
   width: 100%;
+  margin-top: 20px;
   padding-left: 25px;
 }
 

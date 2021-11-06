@@ -1,10 +1,12 @@
+/* Hide mobile hamburguer menu */
 @media only screen and (max-width: 400px) {
   .menu-links {
     display: none;
   }
 }
 
-@media only screen and (min-width: 1400px) {
+/* Desktop query portfolio version */
+@media only screen and (min-width: 992px) {
   #line {
     display: none;
   }
